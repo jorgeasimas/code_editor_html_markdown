@@ -1,0 +1,50 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: blue;
+}
+
+.editor {
+  margin: 1px;
+  width: 100%;
+  height: 100px;
+  padding: 1px;
+}
+
+.previewer {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+}
+
+.center {
+  margin: auto;
+  width: 80%;
+  padding: 1px;
+}
+
+.my-grid {
+  width: 85vw;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+}
+
+.card-container {
+  display: grid;
+  flex-direction: column;
+  background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25s ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
